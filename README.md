@@ -3,7 +3,7 @@
 - Overall TODO:
   - [x] Basic frontend using AngularJS
   - [ ] Basic backend using nodeJS+mongoDB
-
+  
 -----------------
 
 ## frontend_try
@@ -43,11 +43,35 @@
 
 -----------------
 
-
 ## backend_try
-- TODO
+- Followed video https://www.youtube.com/watch?v=vjf774RKrLc
+- Learned:
+  - How to init a backend project Node.js express
+  - Basic structure of the project
+  - Connect to a mongoDB database on cloud
+  - Save/read data to/from database 
 
 
+### Steps followed
+1. New folder _test-project-backend_
+- `npm init`
+- `npm install express nodemon mongoose`
+- Create new _app.js_ file, give starting point in _package.json_
+  - Fill inside..
+- Set up new sandbox on [mlab.com](https://mlab.com/)
+  - `npm install dotenv` for storing env variables (database access)
+  - Set up db connection
+- New folder _routes_
+  - Create _posts.js_ inside
+  - Import it from _app.js_
+- New folder _models_
+- New schema _models/Post.js_
+  - Update _posts.js_ inside _routes_
+  - (optional) Download [postman app](https://www.postman.com/downloads/) to test 
+  - `npm install body-parser` to handle JSON post request
+    - Add it to _app.js_
+  - Implement saving posts as a **async** post function in _posts.js_
+  - Update get function (also async) to get posts
 
 -----------------
 
