@@ -2,7 +2,8 @@
 - This is my tryouts for frontend+backend dev
 - Overall TODO:
   - [x] Basic frontend using AngularJS
-  - [ ] Basic backend using nodeJS+mongoDB
+  - [x] Basic backend using nodeJS+mongoDB
+  - [ ] Dockerize
   
 -----------------
 
